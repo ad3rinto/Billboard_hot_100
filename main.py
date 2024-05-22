@@ -21,7 +21,7 @@ artist_names = [artist.getText().strip() for artist in song_artist_spans]
 # print(artist_names)
 new_artist_names = [item for item in artist_names if not item.isdigit()]
 # print(new_artist_names)
-
+pos = 1
 for (title, artist) in zip(song_names, new_artist_names):
-    print(f"Song is: {title}\nand artist is {artist}")
-
+    print(f"At position {pos} is: {title}\nArtist: {artist}\n")
+    pos += 1
