@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# SPOTIPY_CLIENT_ID =os.environ.get('CLIENT_ID')
-# SPOTIPY_CLIENT_SECRET=os.environ.get('CLIENT_SECRET')
-# print(SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET)
+SPOTIPY_CLIENT_ID =os.environ.get('CLIENT_ID')
+SPOTIPY_CLIENT_SECRET=os.environ.get('CLIENT_SECRET')
+print(SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET)
 
 birdy_uri = 'spotify:artist:2WX2uTcsvV5OnS0inACecP'
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
