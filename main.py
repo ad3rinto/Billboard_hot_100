@@ -8,6 +8,12 @@ import os
 # load_dotenv()
 
 
+<<<<<<< HEAD
+=======
+SPOTIPY_CLIENT_ID =os.environ.get('CLIENT_ID')
+SPOTIPY_CLIENT_SECRET=os.environ.get('CLIENT_SECRET')
+print(SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET)
+>>>>>>> 1d4bb6fc6541d802395ca339c2e6b1dd30b26445
 
 SPOTIPY_CLIENT_ID =os.environ.get['CLIENT_ID']
 SPOTIPY_CLIENT_SECRET=os.environ.get['CLIENT_SECRET']
